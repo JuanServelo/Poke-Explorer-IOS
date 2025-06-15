@@ -10,10 +10,13 @@ import SwiftData
 
 @main
 struct Poke_ExplorerApp: App {
+    @StateObject private var authManager = AuthenticationManager()
+
     var body: some Scene {
-            WindowGroup {
-                LoginView()
-            }
-            .modelContainer(for: [Usuario.self, Favorito.self])
+        WindowGroup {
+            ContentView()
+                .environmentObject(authManager)
+        }
+        .modelContainer(for: [Usuario.self, Favorito.self])
     }
 }
