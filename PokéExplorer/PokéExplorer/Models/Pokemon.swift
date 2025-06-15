@@ -10,7 +10,7 @@ import Foundation
 struct Pokemon: Codable, Identifiable {
     let id: Int
     let name: String
-    let imageURL: String
+    var imageURL: String = ""
     let height: Int
     let weight: Int
     let types: [PokemonTypeWrapper]
@@ -28,12 +28,12 @@ struct Pokemon: Codable, Identifiable {
         let name: String
         let url: String
     }
-}
+    
+    struct PokemonListResponse: Codable {
+        let results: [NamedAPIResource]
+    }
 
-struct PokemonListResponse: Codable {
-    let results: [NamedAPIResource]
-    struct NamedAPIResource: Codable {
-        let name: String
-        let url: String
+    enum CodingKeys: String, CodingKey {
+        case id, name, height, weight, types, abilities
     }
 }
