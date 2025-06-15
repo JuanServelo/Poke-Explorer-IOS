@@ -1,4 +1,4 @@
-# PokéExplorer  Pokéball
+# PokéExplorer
 
 Bem-vindo ao PokéExplorer, sua jornada definitiva para descobrir, colecionar e acompanhar seus Pokémon favoritos! Este projeto foi desenvolvido como avaliação final para a disciplina de **Desenvolvimento Mobile: IOS**, do 5º período do curso de **Sistemas de Informação**.
 
@@ -32,7 +32,7 @@ O **PokéExplorer** é um aplicativo iOS que permite aos usuários mergulhar no 
 
 Assista a um vídeo demonstrando todas as funcionalidades do aplicativo, incluindo a responsividade do layout em diferentes dispositivos e orientações.
 
-**[>> Link para o Vídeo no YouTube <<](https://www.youtube.com/)**
+**[>> Link para o Vídeo no YouTube <<]([https://www.youtube.com/](https://youtu.be/DKrLVWcSqjM))**
 
 ---
 
