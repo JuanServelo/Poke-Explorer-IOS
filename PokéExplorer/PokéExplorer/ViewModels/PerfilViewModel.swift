@@ -1,0 +1,9 @@
+//
+//  PerfilViewModel.swift
+//  PokéExplorer
+//
+//  Created by user276508 on 15/06/25.
+//
+
+
+import Foundationimport SwiftData@MainActorclass PerfilViewModel: ObservableObject {    @Published var nome: String = ""    @Published var senha: String = ""    @Published var confirmacao: String = ""    @Published var mensagemErro: String? = nil    @Published var edicaoConcluida: Bool = false    func carregarDados(usuario: Usuario) {        nome = usuario.nomeDeUsuario    }    func salvar(usuario: Usuario, contexto: ModelContext) {        guard senha == confirmacao else {            mensagemErro = "As senhas não coincidem."            return        }        if !senha.isEmpty && !Validador.senhaForte(senha) {            mensagemErro = "A senha deve ter pelo menos 6 caracteres, uma letra maiúscula e um número."            return        }        if nome.isEmpty {            mensagemErro = "O nome não pode estar vazio."            return        }        usuario.nomeDeUsuario = nome        if !senha.isEmpty {            usuario.senha = senha        }        do {            try contexto.save()            mensagemErro = nil            edicaoConcluida = true        } catch {            mensagemErro = "Erro ao salvar."        }    }}
