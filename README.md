@@ -32,7 +32,7 @@ O **PokéExplorer** é um aplicativo iOS que permite aos usuários mergulhar no 
 
 Assista a um vídeo demonstrando todas as funcionalidades do aplicativo, incluindo a responsividade do layout em diferentes dispositivos e orientações.
 
-**[>> Link para o Vídeo no YouTube <<]((https://youtu.be/DKrLVWcSqjM))**
+**[>> Link para o Vídeo no YouTube <<]([(https://youtu.be/DKrLVWcSqjM)](https://youtu.be/DKrLVWcSqjM))**
 
 ---
 
