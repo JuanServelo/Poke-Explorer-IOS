@@ -2,7 +2,7 @@
 
 Bem-vindo ao PokéExplorer, sua jornada definitiva para descobrir, colecionar e acompanhar seus Pokémon favoritos! Este projeto foi desenvolvido como avaliação final para a disciplina de **Desenvolvimento Mobile: IOS**, do 5º período do curso de **Sistemas de Informação**.
 
-**Desenvolvido por:** *Juan Rodrigues dos Santos Servelo e João Victor Monteiro Tancon*
+**Desenvolvido por:** *Juan Rodrigues dos Santos Servelo, João Victor Monteiro Tancon, Thais Oliveira Amaral, Ray Govaski e Luana Akemi Sakurada*
 
 ---
 
